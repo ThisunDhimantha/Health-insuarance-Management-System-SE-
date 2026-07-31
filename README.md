@@ -13,7 +13,6 @@ A secure, web-based platform that digitizes and automates health insurance servi
 | IT25103984 | Jayalath W.A.D |
 | IT25101054 | Nemsith K.B.N |
 
-> ✏️ Note: Please double-check/complete the first member's registration number — it wasn't fully legible in the source slide.
 
 ---
 
