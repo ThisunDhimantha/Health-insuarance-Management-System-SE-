@@ -6,7 +6,7 @@ A secure, web-based platform that digitizes and automates health insurance servi
 
 | Reg. No | Name |
 |---|---|
-| IT25... | Wanigasekara Chandra G.W.S.T |
+| IT25101964 | Sarathchandra G.W.S.I |
 | IT25102885 | Dhimantha W.L.T |
 | IT25103980 | Perera W.W.M.D |
 | IT25101957 | Lakshani J.D.C |
