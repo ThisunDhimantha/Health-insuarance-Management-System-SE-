@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Insurance Management System - Web Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <span class="logo-icon">🏥</span>
+            <div>
+                <h1>Health Insurance Portal</h1>
+                <p class="subtitle">Group MLB-B2G2-09 | Web-Based Platform</p>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="#policies" class="nav-item active">Policies</a>
+            <a href="#claims" class="nav-item">Claims</a>
+            <a href="#payments" class="nav-item">Payments</a>
+            <a href="#hospitals" class="nav-item">Hospitals</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-card">
+            <h2>Welcome to Health Insurance Management System</h2>
+            <p>Manage your health policies, submit medical claims, and process premium payments effortlessly online.</p>
+        </section>
+
+        <!-- Policies Section -->
+        <section id="policies" class="section">
+            <div class="section-header">
+                <h2>Available Insurance Policies</h2>
+                <button class="btn btn-primary" onclick="openPolicyModal()">+ Add New Policy</button>
+            </div>
+            
+            <div id="policyGrid" class="grid">
+                <!-- Policy cards will be loaded dynamically via app.js -->
+                <div class="card">
+                    <span class="card-badge">Comprehensive</span>
+                    <h3>Family Shield Gold</h3>
+                    <p class="card-type">Category: Family Health</p>
+                    <div class="card-details">
+                        <div>
+                            <span class="detail-label">Coverage</span>
+                            <span class="detail-value">$50,000</span>
+                        </div>
+                        <div>
+                            <span class="detail-label">Monthly Premium</span>
+                            <span class="detail-value">$150/mo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="card-badge">Individual</span>
+                    <h3>Senior Care Plus</h3>
+                    <p class="card-type">Category: Senior Health</p>
+                    <div class="card-details">
+                        <div>
+                            <span class="detail-label">Coverage</span>
+                            <span class="detail-value">$75,000</span>
+                        </div>
+                        <div>
+                            <span class="detail-label">Monthly Premium</span>
+                            <span class="detail-value">$200/mo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Web-Based Health Insurance Management System. Developed for Software Engineering Module.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
