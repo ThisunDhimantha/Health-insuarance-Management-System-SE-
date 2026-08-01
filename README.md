@@ -2,6 +2,8 @@
 
 A web-based platform that automates health insurance services by allowing users to manage insurance policies, medical claims, premium payments, hospitals, and reports in one secure system.
 
+The system provides a centralized platform for customers, insurance officers, hospitals, and administrators to efficiently handle insurance-related activities with improved accuracy, security, and accessibility.
+
 **Group:** MLB-B2G2-09
 
 | Reg. No | Name |
@@ -15,7 +17,75 @@ A web-based platform that automates health insurance services by allowing users 
 
 ---
 
-## 📂 Project Structure
+# 🚀 Main Features
+
+### 👤 User Management
+- User registration and authentication
+- Role-based access control
+- Profile management
+
+### 📄 Insurance Policy Management
+- Create new insurance policies
+- View and update policy details
+- Manage policy status
+
+### 🏥 Medical Claim Management
+- Submit medical claims
+- Review and approve/reject claims
+- Track claim history
+
+### 💳 Premium Payment Management
+- Manage premium payments
+- Generate payment records
+- View transaction history
+
+### 🏨 Hospital Management
+- Manage registered hospitals
+- Store hospital information
+- Manage hospital services
+
+### 📊 Reporting & System Administration
+- Generate insurance reports
+- View system activities
+- Filter and analyze reports
+- Manage system settings
+
+---
+
+# 🛠️ Technologies Used
+
+## Frontend Development
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Bootstrap / Tailwind CSS
+
+## Backend Development
+- Java
+- Spring Boot Framework
+- Spring MVC
+- Spring Data JPA
+- RESTful APIs
+
+## Database
+- MySQL
+- Hibernate ORM
+
+## Development Tools
+- IntelliJ IDEA
+- Visual Studio Code
+- Git & GitHub
+- Postman
+- MySQL Workbench
+
+## Version Control
+- Git
+- GitHub
+
+---
+
+# 📂 Project Structure
 
 ```text
 health-insurance-system/
@@ -40,10 +110,3 @@ health-insurance-system/
 │
 ├── .gitignore
 └── README.md
-```
-
----
-
-## 📄 License
-
-Academic Project developed for Software Engineering Module.
