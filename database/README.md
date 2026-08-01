@@ -1,15 +1,11 @@
-# Database
+# 🗄️ Database Module
 
-This folder contains database-related files:
+This directory contains the database setup scripts and schema documentation for the Health Insurance Management System.
 
-- `schema.sql` — table definitions
-- ER diagrams (image/pdf)
-- Seed/sample data scripts
+## Database Information
+- **RDBMS:** MySQL 8.x
+- **Database Name:** `health_insurance_db`
 
-## Example tables (based on requirements)
-- users
-- policies
-- claims
-- payments
-- hospitals
-- insurance_providers
+## Included Files
+- `schema.sql` - Table definitions for policies, users, claims, and payments.
+- `sample_data.sql` - Seed data for testing.

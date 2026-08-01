@@ -1,24 +1,12 @@
-# Frontend
+# 🎨 Frontend Module
 
-Client-side application (UI) for the Health Insurance Management System.
+This directory contains the user interface components for the Web-Based Health Insurance Management System.
 
-## Suggested structure (once framework is chosen)
-```
-frontend/
-├── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/           # Page-level views (Login, Dashboard, Claims, Policies...)
-│   ├── services/        # API call functions
-│   ├── assets/          # Images, icons
-│   ├── App.js / App.jsx
-│   └── index.js
-├── public/
-├── package.json
-└── .env.example
-```
+## Technologies Used
+- HTML5, CSS3, JavaScript
+- Vite Dev Server / Node.js
 
-## Setup
-```bash
-npm install
-npm start
-```
+## Folder Structure
+- `public/` - Public static assets and HTML templates
+- `src/` - Application logic, styling, and UI scripts
+- `.env.example` - Environment configuration template

@@ -1,31 +1,14 @@
-# Backend
+# ⚙️ Backend Module
 
-Server-side API for the Health Insurance Management System.
+This directory contains the Spring Boot REST API services for the Web-Based Health Insurance Management System.
 
-## Suggested structure (once framework is chosen)
-```
-backend/
-├── src/
-│   ├── controllers/     # Request handlers
-│   ├── models/          # Database models/entities
-│   ├── routes/          # API routes
-│   ├── middleware/       # Auth, error handling, validation
-│   └── services/         # Business logic
-├── config/               # DB config, app config
-├── package.json / pom.xml / requirements.txt
-└── .env.example
-```
+## Technologies Used
+- Java 17 / Spring Boot 3.x
+- Spring Data JPA
+- MySQL Database Connector
+- Maven Build Tool
 
-## Setup
-```bash
-# Node/Express example
-npm install
-npm run dev
-
-# Spring Boot example
-./mvnw spring-boot:run
-
-# Django/Flask example
-pip install -r requirements.txt
-python manage.py runserver
-```
+## Folder Structure
+- `src/` - Application source code and resources
+- `config/` - Backend security and environment configurations
+- `.env.example` - Environment configuration template

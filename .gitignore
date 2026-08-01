@@ -4,28 +4,20 @@
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db
 
 # IDEs & Editors
 .idea/
 *.iml
 .vscode/
-*.classpath
-*.project
-*.settings/
 
 # Node / Frontend Build Artifacts
 node_modules/
 dist/
 .vite/
-*.log
 
 # Java / Maven Build Artifacts
 target/
 *.class
-*.jar
-*.war
 
 # Environment Variables
 .env
