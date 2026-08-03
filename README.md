@@ -110,3 +110,173 @@ health-insurance-system/
 │
 ├── .gitignore
 └── README.md
+
+
+# 👨‍💻 Development Team & Responsibilities
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 👨‍💼 Perera W.W.M.D
+**🛡 Insurance Policy Management**
+
+#### Components
+- Policy Registration
+- Policy Renewal
+- Policy Cancellation
+- Insurance Packages
+- Policy Validation
+
+#### Responsibilities
+- CRUD Operations
+- Policy Management API
+- Policy Database
+- Business Logic
+- Unit Testing
+
+**Tech**
+`Spring Boot` `Java` `MySQL` `REST API`
+
+</td>
+
+<td align="center" width="33%">
+
+### 🏥 Sarathchandra G.W.S.I
+**📋 Medical Claim Management**
+
+#### Components
+- Claim Submission
+- Document Upload
+- Claim Verification
+- Approval/Rejection
+- Claim Tracking
+
+#### Responsibilities
+- CRUD Operations
+- File Upload
+- Claim Status
+- Validation
+- API Integration
+
+**Tech**
+`Spring Boot` `Java` `MySQL`
+
+</td>
+
+<td align="center" width="33%">
+
+### 🏥 Jayalath W.A.D
+**🩺 Treatment Management**
+
+#### Components
+- Hospital Verification
+- Treatment Records
+- Medical Bills
+- Patient Eligibility
+- Hospital Dashboard
+
+#### Responsibilities
+- CRUD Operations
+- Hospital Module
+- Record Management
+- Validation
+- Database Design
+
+**Tech**
+`Spring Boot` `Java` `MySQL`
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+### 💳 Lakshani J.D.C
+**💰 Premium Payment Management**
+
+#### Components
+- Online Payments
+- Payment History
+- Invoice Generation
+- Refund Requests
+- Payment Tracking
+
+#### Responsibilities
+- CRUD Operations
+- Payment Gateway
+- Receipt Generation
+- Transaction Management
+- API Integration
+
+**Tech**
+`Spring Boot` `Java` `MySQL`
+
+</td>
+
+<td align="center">
+
+### 🎧 Nemsith K.B.N
+**📞 Customer Support**
+
+#### Components
+- Support Tickets
+- Complaint Management
+- Notifications
+- FAQ
+- Feedback System
+
+#### Responsibilities
+- CRUD Operations
+- Email Notifications
+- Ticket Tracking
+- Customer Dashboard
+- Response Management
+
+**Tech**
+`Spring Boot` `Java` `MySQL`
+
+</td>
+
+<td align="center">
+
+### 📊 Dhimantha W.L.T
+**📈 Reporting & System Administration**
+
+#### Components
+- Dashboard Analytics
+- Reports Generation
+- User Management
+- Role Management
+- System Logs
+- Export PDF
+- Export Excel
+
+#### Responsibilities
+- CRUD Operations
+- Analytics Dashboard
+- Report Generation
+- Admin Panel
+- Security Management
+- Data Visualization
+
+**Tech**
+`Spring Boot` `Java` `MySQL`
+`Chart.js` `Apache POI` `iText PDF`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📌 Module Distribution
+
+| Member | Module | Status |
+|---------|--------|--------|
+| Perera W.W.M.D | 🛡 Insurance Policy Management | ✅ |
+| Sarathchandra G.W.S.I | 📋 Medical Claim Management | ✅ |
+| Jayalath W.A.D | 🏥 Treatment Management | ✅ |
+| Lakshani J.D.C | 💳 Premium Payment Management | ✅ |
+| Nemsith K.B.N | 🎧 Customer Support | ✅ |
+| Dhimantha W.L.T | 📊 Reporting & System Administration | ✅ |
